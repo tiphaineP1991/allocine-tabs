@@ -1,22 +1,83 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  background-color: lightgray;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #facd48;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.logo {
+  padding-left: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  justify-content: center;
+}
+
+h1 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.item {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  background-color: white;
+  display: flex;
+  margin: 15px;
+  height: 300px;
+  width: 600px;
+}
+
+.poster {
+  height: 300px;
+  object-fit: contain;
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  padding: 10px 10px;
+}
+
+.date {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.description {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px 10px;
+}
+
+.activeTab {
+  text-decoration: underline;
+}
+
+.tab {
+  text-decoration: none;
 }
